@@ -1,0 +1,77 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GrazieInspection" enabled="false" level="GRAMMAR_ERROR" enabled_by_default="false" />
+    <inspection_tool class="LanguageDetectionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="gunicorn" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.http.request.HttpRequest.user" />
+          <option value="voterguide.models.Race.objects" />
+          <option value="voterguide.models.Election.objects" />
+          <option value="voterguide.models.Candidate.objects" />
+          <option value="voterguide.models.RaceCandidate.objects" />
+          <option value="voterguide.models.CandidateSurveyLink.DoesNotExist" />
+          <option value="voterguide.models.CandidateSurveyLink.objects" />
+          <option value="rrad.trade_tickets.models.TradeTicket.products_ordered" />
+          <option value="rrad.trade_tickets.models.TradeTicket.objects" />
+          <option value="voterguide.models.Survey.objects" />
+          <option value="voterguide.models.Question.objects" />
+          <option value="voterguide.models.SurveyQuestion.objects" />
+          <option value="voterguide.models.RaceCandidate.DoesNotExist" />
+          <option value="django.db.models.fields.CharField.*" />
+          <option value="voterguide.models.SurveyQuestion.*" />
+          <option value="voterguide.models.CandidateProfile.*" />
+          <option value="voterguide.models.Answer.*" />
+          <option value="django.db.models.fields.related.ForeignKey.*" />
+          <option value="voterguide.models.RaceCandidate.*" />
+          <option value="voterguide.models.SurveyEmailLogEntry.*" />
+          <option value="voterguide.models.RuntimeSetting.*" />
+          <option value="voterguide.models.Race.*" />
+          <option value="voterguide.models.District.*" />
+          <option value="voterguide.models.Survey.*" />
+          <option value="rrad.shipments.models.Shipment.*" />
+          <option value="rrad.trade_tickets.models.TradeTicket.*" />
+          <option value="rrad.leads.models.Address.*" />
+          <option value="rrad.products.models.Catalog.*" />
+          <option value="rrad.trade_tickets.models.CommissionSplit.*" />
+          <option value="django.db.models.fields.related.ManyToManyField.*" />
+          <option value="rrad.products.models.SpotPrice.*" />
+          <option value="rrad.uploads.models.Upload.*" />
+          <option value="rrad.leads.models.Lead.*" />
+          <option value="rrad.emails.models.EmailTemplate.*" />
+          <option value="rrad.trade_tickets.models.CommissionReportCache.*" />
+          <option value="volunteers.models.VolunteerModel.*" />
+          <option value="volunteers.models.SessionModel.objects" />
+          <option value="volunteers.models.SessionModel.*" />
+          <option value="external_users.models.ExternalUserModel.*" />
+          <option value="external_users.models.SessionModel.*" />
+          <option value="voterguide.models.Issue.*" />
+          <option value="volunteers.models.AssignedIssueModel.*" />
+          <option value="volunteers.models.SubmittedSource.*" />
+          <option value="rrad.leads.models.SourceCost.*" />
+          <option value="rrad.products.models.Product.*" />
+          <option value="rrad.leads.models.Source.*" />
+          <option value="voterguide.admin.ExportCsvMixin.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
