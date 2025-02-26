@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="django-access-logging",
-    version="1.0.0",
+    version="1.0.1",
     description="Django middleware to log all requests and responses to a database.",
     long_description=README,
     long_description_content_type="text/markdown",
